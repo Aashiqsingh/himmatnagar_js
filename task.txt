@@ -1,0 +1,4 @@
+ifElse --> 5 task
+switch --> 2 task 
+ternary --> 5 task 
+
