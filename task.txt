@@ -2,3 +2,6 @@ ifElse --> 5 task
 switch --> 2 task 
 ternary --> 5 task 
 
+Forloop ==> 5 task
+Whileloop ==> 5 task
+Do Whileloop ==> 5 task
