@@ -5,3 +5,10 @@ ternary --> 5 task
 Forloop ==> 5 task
 Whileloop ==> 5 task
 Do Whileloop ==> 5 task
+
+
+
+userName without spacing : jalaypanchal
+
+
+output : @jalaypanchal12
