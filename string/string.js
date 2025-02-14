@@ -66,16 +66,36 @@ var str2 = "jalay";
 // console.log(str.toLowerCase());
 // console.log(str.toUpperCase());
 
-var str = "        royal technosoft pvt ltd.         ";
+// var str = "        royal technosoft pvt ltd.         ";
 
-console.log(str.length);
-
-
-
-// var x = str.trim();
-var x = str.trimEnd()
-console.log(x.length);
+// console.log(str.length);
 
 
 
+// // var x = str.trim();
+// var x = str.trimEnd()
+// console.log(x.length);
+
+
+// var name = "jalaypanchal";
+
+
+// var anchor = "@";
+
+// var x = anchor.concat(name).concat(name.length)
+// console.log(x);
+
+var name = "aashiq"
+
+var sname = name.split("")
+
+var x = []
+
+for(let i=sname.length - 1;i>=0;i--)
+{
+    // console.log(sname[i]);
+    x = x + sname[i]
+}
+
+console.log(x);
 

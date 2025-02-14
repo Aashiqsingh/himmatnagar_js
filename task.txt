@@ -12,3 +12,5 @@ userName without spacing : jalaypanchal
 
 
 output : @jalaypanchal12
+
+vishvek --> kevhsiv
