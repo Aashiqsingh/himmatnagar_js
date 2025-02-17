@@ -14,3 +14,11 @@ userName without spacing : jalaypanchal
 output : @jalaypanchal12
 
 vishvek --> kevhsiv
+
+
+arrow function 
+1. area of crcle
+2. area of square
+3. area of triangle 
+4. area of semi-circle
+5. area of rectangle
