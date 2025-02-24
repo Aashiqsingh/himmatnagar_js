@@ -9,7 +9,7 @@ function demo()
 function test(x)
 {
     // console.log(x);
-    x()
+    // x()
        
 }
 

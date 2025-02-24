@@ -20,7 +20,7 @@ function admision(name,per,cb)
     cb(name,per)
 }
 
-var percentage = 78;
+var percentage = 98;
 
 if(percentage > 90)
 {
