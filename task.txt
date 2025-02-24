@@ -22,3 +22,61 @@ arrow function
 3. area of triangle 
 4. area of semi-circle
 5. area of rectangle
+
+
+----------------------------------------------------------------
+Bank of Baroda
+var pin = 6354;
+var avlbal = 35000;
+
+fun checkbal()
+{
+	log "Avlbal is = " avlbal 
+}
+fun withdrwa()
+{
+	Enter ur amount:50000
+	amount< avlbal
+	{
+		succefully withdrwa 30000
+		checkBal() - withdrwa amount
+		display rest bal 
+	}
+	else{
+		insufficient bal
+	}
+}
+fun deposit()
+{
+
+	Enter your amount:
+		Succefully deposited : 25000;
+		checkBal() + deposia amount
+		display now after deposit ur avlbal is  
+}
+
+do u want to enter in atm?
+{
+	Enter your acc no:
+	Enter your Upin :
+	upin == pin
+	{
+		1 . check bal
+		2. withdrwa
+		3. deposite
+		Enter ur choice
+		case 1 : checkbal()
+			break;
+
+		cas2 : withdrwa()
+			break;
+
+		case : deposit()
+	}
+	else{
+		Password if incoreect
+	}
+}else
+{
+	Thankyou for visiting..
+}
