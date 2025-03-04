@@ -44,3 +44,42 @@ var products = [
 
     }
 ]
+
+
+
+// var x = products.map((prod)=>{
+//     return prod.color.filter((col)=>{
+//         return col === "white"
+//     })
+// })
+
+// console.log(x);
+
+
+
+
+
+
+
+
+// var x = products.filter((prod)=>{
+//     return prod.color.includes("white")
+// })
+
+// console.log(x);
+
+
+
+
+
+// var x=products.map((prod)=>{
+//     return prod.category
+// })
+// console.log(x)
+// var x = products.filter( (pro) => pro.category == "Mobile")
+// console.log(x)
+
+// var x=products.filter((prod)=>{
+//     return prod.category == "Mobile"
+// })
+// console.log(x)
