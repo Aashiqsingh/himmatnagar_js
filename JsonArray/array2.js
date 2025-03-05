@@ -3,7 +3,7 @@ var products = [
         id:101,
         name:"Iphone",
         category:"Mobile",
-        price:100000,
+        price:100001,
         color:["red","black","blue","green","yellow"],
         isAvailable:true,
         details:{
@@ -44,6 +44,48 @@ var products = [
 
     }
 ]
+
+// const totalPriceOfMobile = products.filter((pro)=>{
+//     return pro.category === "Mobile"
+// }).reduce((sum , mob)=>{
+//     return sum + mob.price
+// },0)
+// console.log(totalPriceOfMobile);
+
+// const TotalPriceOfMobile = products.filter((pro)=> pro.category === "Mobile").reduce((sum,mob)=> sum + mob.price,0)
+// console.log(TotalPriceOfMobile);
+
+
+
+
+
+
+
+
+// reduce : single value return 
+
+// var totalPrice = products.reduce((sum , pro)=>{
+//     return sum + pro.price
+// },0)
+
+// console.log(totalPrice);
+
+var totalPrice = products.reduce((sum , pro)=> sum + pro.price,0);
+console.log(totalPrice);
+
+
+
+
+
+
+// var sum = 0;
+// products.forEach((pro)=>{
+//     sum = sum + pro.price
+// })
+// console.log(sum);
+
+
+
 
 
 
