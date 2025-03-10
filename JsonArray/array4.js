@@ -117,6 +117,32 @@ var company = [
   ]
 
 
+//1 .  const moreSalary = company.map((comp)=> comp.employees.filter((emp)=> emp.salary > 80000))
+// console.log(moreSalary);
+
+//2. const totalEmployee = company.reduce((sum , comp)=> sum + comp.employees.length,0);
+// console.log(totalEmployee);
+
+//3. const findPosition = company.find((comp)=> comp.employees.find((emp)=> emp.name === "Emily Davis")).employees.find((emp)=> emp.name === "Emily Davis").position
+// console.log(findPosition);
+
+// const companyName = company.find((comp)=> comp.employees.find((emp)=> emp.name === "Liam Wilson")).companyname
+// console.log(companyName);
+
+// const findTechSal = company.find((comp)=> comp.companyname === "Tech Solutions").employees.reduce((sum ,emp)=> sum + emp.salary/2,0);
+// console.log(findTechSal);
+
+// const gretterEmp = company.map((comp)=> comp.employees.filter((emp)=> emp.age > 30))
+// console.log(gretterEmp);
+
+const findEmail = company.map((comp)=> comp.employees.reduce((sum , emp)=> sum + emp.email.endsWith("datadynamics.com"),0))
+console.log(findEmail);
+
+
+
+
+
+
 //   List all company names.
 
 // Extract and display only the companyName fields from the JSON array.
