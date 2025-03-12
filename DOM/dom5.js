@@ -1,11 +1,17 @@
 var a = 0;
 
+var colors = ["red", "green", "blue", "yellow", "magenta", "aqua", "orange"];
+
+// console.log(colors[1]);
+
 function change(){
-    const mydiv = document.getElementById("mydiv")
+    
+    var mydiv = document.getElementById("mydiv")
 
+    var randomIndex = Math.floor(Math.random() * colors.length);
+    console.log(randomIndex);
 
-    // console.log("hello world..");
-    console.log(a++);
+    mydiv.style.backgroundColor = colors[randomIndex]
     
     
 }
