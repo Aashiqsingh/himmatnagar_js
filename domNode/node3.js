@@ -15,4 +15,5 @@ const addPass = ()=>{
     
     output.appendChild(nameInput)
     output.appendChild(br)
+    
 }
