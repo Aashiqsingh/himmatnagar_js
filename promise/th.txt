@@ -1,42 +1,11 @@
-Promise : (resolve , failure)
+Promise --> pending-- (resolve , reject)
+
+Promise -- class -- object 
 
 
-Promise class --> object
-
-There are two ways 
-1. sync 
+1. Sync 
+    1. block sync 
+        - then catch 
+    2. function sync
+        - async await
 2. non-sync 
-
-
-
-print("Starting coding...")
-
-print(---------------------------------------------); 2min
-
-print("Ending coding....)
-
-
-
---------------------------------------------------
-sync example 
-
-
-print("Start coding....)
-
-
-############################################ 4min
-
-
-print("END...)
-
-
-
-Sync :
-1. block sync 
-    then , catch
-2. function sync
-    async await
-
-
-
-

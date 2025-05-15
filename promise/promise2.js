@@ -1,54 +1,92 @@
-// nested promise 
+// const getData = ()=>{
 
-const orderZomato = ()=>{
-    console.log("Order is going to placedd....");
+//     var pro = new Promise((success,failure)=>{
+//         setTimeout(()=>{
+//             success({
+//                 messege:"Data fetched successfully",
+//                 status:200
+//             })
+//         },4000)
+//     })
+
+//     pro.then((res)=>{
+//         console.log(res);
+//     })
+//     pro.catch((error)=>{
+//         console.log(error);
+//     })
+
+// }
 
 
-    return promise = new Promise((success,failure)=>{
+// getData()
+
+
+// const getData = ()=>{
+
+//     var pro = new Promise((success,failure)=>{
+//         setTimeout(()=>{
+//             success({
+//                 messege:"Data fetched successfully",
+//                 status:200
+//             })
+//         },4000)
+//     })
+
+//     return pro;
+
+// }
+
+
+// let ans = getData()
+// ans.then((data)=>{
+//     console.log(data);
+// })
+// ans.catch((error)=>{
+//     console.log(error);
+// })
+
+
+
+// const getData = ()=>{
+
+//     var pro = new Promise((success,failure)=>{
+//         setTimeout(()=>{
+//             success({
+//                 messege:"Data fetched successfully",
+//                 status:200
+//             })
+//         },4000)
+//     })
+
+//     return pro;
+
+// }
+
+
+// getData().then((data)=>{
+//     console.log(data);
+// }).catch((err)=>{
+//     console.log(err);
+// })
+
+
+const getData = ()=>{
+
+    return new Promise((success,failure)=>{
         setTimeout(()=>{
             success({
-                orderId:201,
-                message:"Order confirmed successfully...",
-                amount:499
+                messege:"Data fetched successfully",
+                status:200
             })
         },4000)
     })
 
-    
+
 }
 
-const paymentZomato = (data)=>{
-
-    console.log("Payment is going to completed..");
-    
-
-    return promise = new Promise((resolve,reject)=>{
-        setTimeout(()=>{
-            resolve({
-                paymentId:data.orderId,
-                message:"Payment done successfully...",
-                amount:data.amount
-            })
-        },4000)
-    })
-}
-
-
-
-orderZomato().then((res)=>{
-    console.log("food ....",res);
-    paymentZomato(res).then((data)=>{
-        console.log("payment....",data);
-
-        // console.log("Ending order work....");
-        
-        
-    }).catch((error)=>{
-        console.log("payment err ...",error);
-        
-    })
-    
+getData().then((data)=>{
+    console.log(data);
 }).catch((err)=>{
-    console.log("food cancel ....",err);
-    
+    console.log(err);
 })

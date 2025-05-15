@@ -1,10 +1,21 @@
-console.log("Starting coding.......");
+function getData(){
+
+    console.log("Starting....");
 
 
-setTimeout(()=>{
-    console.log("-----------------------------");
 
-},3000)
+    setTimeout(()=>{
+        console.log("This is a program...");
+        
+    },4000)
 
-console.log("endingi coding....");
+    console.log("Ending....");
+    
+    
 
+
+
+}
+
+
+getData()
